@@ -6,6 +6,8 @@ const App = () => {
 
   return (
     <div>
+      hello world
+      <hr></hr>
       <Navbar />
       <NFTHomeScreen />
       <NFTSignUp />
