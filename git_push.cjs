@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 
 const commitMessage = process.argv[2] || 'Varsayılan açıklama';
 
-// Git add
+    // Git add
 exec('git add .', (error, stdout, stderr) => {
     if (error) {
         console.error(`Git add hata: ${error}`);
